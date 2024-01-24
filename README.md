@@ -18,4 +18,4 @@ After all of those items is ready, on terminal execute this command to run the p
 > robot TestCases/AutomationTest.robot
 
 ## Demo
-[![Automation Test with Selenium and Robot Framework Demo](https://img.youtube.com/vi/https://www.youtube.com/watch?v=NVP_mRwlqx8)](https://www.youtube.com/watch?v=NVP_mRwlqx8)
+[![Automation Test with Selenium and Robot Framework Demo](https://img.youtube.com/vi/NVP_mRwlqx8)](https://www.youtube.com/watch?v=NVP_mRwlqx8)
