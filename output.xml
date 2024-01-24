@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-24T20:40:31.286676" rpa="false" schemaversion="5">
+<suite id="s1" name="AutomationTest" source="D:\WILLY\LookingForJobs\Kalibrr\Talentlytica\Test\AutomationTest\TestCases\AutomationTest.robot">
+<test id="s1-t1" name="LoginUser" line="12">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:31.492013" level="INFO">Opening browser 'chrome' to base url 'https://kompas.com'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-24T20:40:31.492013" elapsed="7.992231"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-24T20:40:39.490771" elapsed="0.254864"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:39.749366" level="INFO">Clicking element 'xpath://i[@id='sso__icon__login_top']'.</msg>
+<arg>xpath://i[@id='sso__icon__login_top']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:40:39.747311" elapsed="0.382208"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:40.129519" level="INFO">Clicking element 'xpath://span[normalize-space()='Login']'.</msg>
+<arg>xpath://span[normalize-space()='Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:40:40.129519" elapsed="1.688447"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-24T20:40:46.819101" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-24T20:40:41.818967" elapsed="5.000134"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:46.820119" level="INFO">Typing text 'willywin1999@gmail.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:40:46.819101" elapsed="0.114083"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:46.934184" level="INFO">Typing text 'TestAutomation123' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:40:46.934184" elapsed="0.087038"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:47.022227" level="INFO">Clicking element 'xpath://input[@value='Login']'.</msg>
+<arg>xpath://input[@value='Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:40:47.022227" elapsed="2.944766"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-24T20:40:54.969103" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-24T20:40:49.967991" elapsed="5.001112"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-24T20:40:54.969103" elapsed="2.283088"/>
+</kw>
+<status status="PASS" start="2024-01-24T20:40:31.490684" elapsed="25.762510"/>
+</test>
+<test id="s1-t2" name="SearchNews" line="30">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:40:57.254195" level="INFO">Opening browser 'chrome' to base url 'https://kompas.com'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-24T20:40:57.254195" elapsed="5.402691"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-01-24T20:41:02.659903" elapsed="0.529408"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:41:03.190309" level="INFO">Clicking element 'xpath://input[@id='search']'.</msg>
+<arg>xpath://input[@id='search']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:41:03.190309" elapsed="0.230873"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:41:03.422187" level="INFO">Typing text 'pemilu' into text field 'id:search'.</msg>
+<arg>id:search</arg>
+<arg>${searchKey}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:41:03.422187" elapsed="0.130738"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:41:03.553937" level="INFO">Sending key(s) ('ENTER',) to xpath://input[@id='search'] element.</msg>
+<msg time="2024-01-24T20:41:03.933096" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2024-01-24T20:41:03.934083" level="INFO">Releasing special key ENTER.</msg>
+<arg>xpath://input[@id='search']</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2024-01-24T20:41:03.552925" elapsed="12.219989"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-24T20:41:20.774451" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-24T20:41:15.773918" elapsed="5.000533"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-01-24T20:41:20.774451" level="INFO">Clicking link 'xpath://body/div[@class='wrap']/div[@class='container clearfix']/div[@class='row mt2 col-offset-fluid clearfix']/div[@class='col-bs10-7']/div[@id='___gcse_0']/div[@class='gsc-control-cse gsc-control-cse-en']/div[@class='gsc-control-wrapper-cse']/div[@class='gsc-results-wrapper-nooverlay gsc-results-wrapper-visible']/div[@class='gsc-wrapper']/div[@class='gsc-resultsbox-visible']/div[@class='gsc-resultsRoot gsc-tabData gsc-tabdActive']/div[@class='gsc-results gsc-webResult']/div[@class='gsc-expansionArea']/div[2]/div[1]/div[1]/div[1]/a[1]'.</msg>
+<arg>xpath://body/div[@class='wrap']/div[@class='container clearfix']/div[@class='row mt2 col-offset-fluid clearfix']/div[@class='col-bs10-7']/div[@id='___gcse_0']/div[@class='gsc-control-cse gsc-control-cse-en']/div[@class='gsc-control-wrapper-cse']/div[@class='gsc-results-wrapper-nooverlay gsc-results-wrapper-visible']/div[@class='gsc-wrapper']/div[@class='gsc-resultsbox-visible']/div[@class='gsc-resultsRoot gsc-tabData gsc-tabdActive']/div[@class='gsc-results gsc-webResult']/div[@class='gsc-expansionArea']/div[2]/div[1]/div[1]/div[1]/a[1]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-24T20:41:20.774451" elapsed="183.655286"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-24T20:44:29.430936" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-24T20:44:24.430738" elapsed="5.000198"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath://p[contains(text(),'- Undang-Undang (UU) Nomor 7 Tahun 2017 tentang Pe')]</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2024-01-24T20:44:29.431940" elapsed="0.392956"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-01-24T20:44:34.826174" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-01-24T20:44:29.825898" elapsed="5.000276"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-24T20:44:34.826174" elapsed="2.367669"/>
+</kw>
+<status status="PASS" start="2024-01-24T20:40:57.253194" elapsed="219.941650"/>
+</test>
+<status status="PASS" start="2024-01-24T20:40:31.287676" elapsed="245.910173"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="AutomationTest">AutomationTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
